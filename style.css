@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} 
+#rl{
+    z-index: 2;
+}
+nav{
+    background-color: #333;
+    padding: 5px;
+    display: flex;
+    z-index: 2;
+} 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 150px;
+    padding: 0;
+} 
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    display: block;
+} 
+nav ul li ul li a{
+    padding: 10px;
+}
+main{
+    z-index: 1;
+}
+footer{
+    background-color: beige;
+    z-index: -1;
+
+}
+footer, header{
+    background-color: beige;
+    padding: 10px;
+}
+.footer-colums{
+    background-color: silver;
+    display: flex;
+}
+.footer-colum{
+    flex: 50%;
+    margin: 20px;
+}
+main, footer{
+    padding: 10px;
+    background-color: gray;
+}
+.post{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.post img{
+    margin:20px;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background: rgb(131, 131, 131);
+    color: black;
+    transition-duration: 90ms;
+}
+#ac{
+    z-index: index 0;
+}
+.carousel-item{
+    z-index: 0;
+}
+#p{
+    background-color: silver;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding:10px;
+}
+h1{
+    text-align: center;
+}
+#we{
+    z-index: -10;
+}
